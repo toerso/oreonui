@@ -1,0 +1,20 @@
+
+.TuiModalBase-root {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    transition: transform 1s;
+    padding: var(--paper-padding);
+}
+
+.TuiModalContent {
+    min-width: 100%;
+    font-size: var(--font-size);
+    color: var(--font-color);
+}
+
+.TuiModal-OverLoader {
+    background-color: var(--shutter-bg-color);
+}

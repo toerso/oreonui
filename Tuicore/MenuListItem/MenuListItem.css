@@ -1,0 +1,9 @@
+.TuiBase-root.TuiMenuListItemBase-root {
+    border: none;
+    border-radius: 70px;
+    width: 100%;
+}
+
+.TuiMenuListItem-padding {
+    padding: 5px 8px;
+}

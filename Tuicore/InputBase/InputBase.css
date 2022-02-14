@@ -1,0 +1,28 @@
+
+.TuiInput-root {
+    background-color: transparent;
+    border: none;
+    border-radius: 4px;
+    min-width: var(--root-min-width);
+    color: var(--font-color);
+    font-size: var(--font-size);
+    cursor:text;
+}
+
+.TuiInput-root:focus {
+    outline: none;
+}
+
+.TuiInput-root::placeholder {
+    padding: var(--placeholder-padding);
+    color: var(--font-color);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    letter-spacing: var(--letter-spacing);
+}
+
+.TuiInputStartAdorned, .TuiInputEndAdorned {
+    min-width: calc(100% - 47.26px);
+}
+
+

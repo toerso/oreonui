@@ -1,0 +1,52 @@
+.TuiButtonBase {
+    overflow: hidden;
+    border-radius: var(--btn-border-radius);
+    transition: 0.8s;
+}
+
+/* .TuiButtonBase:hover {
+    background-color: var(--btn-hover-bg-color);
+} */
+
+.TuiButton-outline {
+    border: 2px solid var(--btn-hover-bg-color);
+    /* outline: inset #fff; */
+    background-color: transparent;
+    color: var(--font-color);
+}
+
+.TuiButton-default {
+    background-color: transparent;
+}
+
+.TuiButton-contain {
+    background-color: var(--dark);
+    border: none;
+    color: var(--font-color);
+}
+
+.TuiButtonBaseSize-small {
+    padding: 12px 12px;
+    width: fit-content;
+}
+
+.TuiButtonBaseSize-medium {
+    padding: 16px 24px;
+}
+
+.TuiButtonBaseSize-large {
+    padding: 20px 28px
+}
+
+.TuiButtonBaseColor-primary {
+    background-color: var(--btn-primary);
+}
+
+.TuiButtonBaseColor-secondary {
+    background-color: var(--btn-secondary);
+}
+
+.TuiButtonEndAdorned, .TuiButtonEndAdorned {
+    justify-content: space-between;
+    align-items: center;
+}

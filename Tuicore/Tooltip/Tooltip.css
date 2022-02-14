@@ -1,0 +1,43 @@
+
+.TuiTooltipBase-root {
+    min-width: 300px;
+    animation: scalling 0.4s linear 0s;
+}
+
+.TuiListBase-root {
+    margin: 0;
+    padding: 5px 0px;
+    outline: none;
+    list-style: none;
+    display: block;
+}
+
+.TuiTooltipItemBase-root {
+    border-radius: 70px;
+    width: 100%;
+}
+
+.TuiTooltipItemBase-root::after {
+    border-radius: 70px;
+}
+
+.TuiTooltipItemBase-root:hover::after {
+    width: 100%;
+}
+
+/* .TuiTooltipItemBase-root:hover {
+    background-color: var(--default);
+} */
+
+.TuiTooltip-OverLoader {
+    background-color: transparent;
+}
+
+@keyframes scalling {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(100%);
+    }
+}

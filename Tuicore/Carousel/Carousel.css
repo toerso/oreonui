@@ -1,0 +1,30 @@
+.TuiCarouselBase-root {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: tomato;
+    box-sizing: border-box;
+    
+}
+
+.TuiCarousel-item:first-child {
+    
+    color: orange;
+    background: green;
+    padding: 50px;
+
+    /* animation: carousel 6s linear infinite 0s; */
+}
+
+
+
+@keyframes carousel {
+    0% {
+        transform: translateY(0);
+    }
+   
+    100% {
+        transform: translateY(400%);
+    }
+}

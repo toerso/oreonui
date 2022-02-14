@@ -1,0 +1,94 @@
+.TuiTable-container-root {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.TuiTable-Base {
+    display: table;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.TuiTableHead-Base {
+    display: table-header-group;
+}
+
+.TuiTableCell-Head {
+    line-height: 1.5rem;
+}
+
+.TuiTableRow-Base {
+    vertical-align: middle;
+    color: inherit;
+    display: table-row;
+}
+
+.TuiTableCell-Base {
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid var(--border-color);
+    color: inherit;
+    letter-spacing: var(--letter-spacing);
+    font-size: var(--font-size);
+}
+
+.TuiTableCell-align-center {
+    text-align: center;
+}
+.TuiTableCell-align-left {
+    text-align: left;
+}
+.TuiTableCell-align-right {
+    text-align: right;
+}
+
+.TuiTableCell-size-small {
+    padding: 6px 12px;
+}
+
+.TuiTableCell-size-medium {
+    padding: 10px 16px;
+}
+
+.TuiTableCell-size-large {
+    padding: 14px 20px;
+}
+
+.TuiTableFooter-Base {
+    display: table-footer-group;
+}
+
+.TuiTablePagination-Base {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    min-height: 40px;
+    min-width: 100%;
+}
+
+/* select {
+    appearance: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    margin: 0;
+    padding: 0 1em;
+    outline: none;
+    width: 100%;
+}
+select::-ms-expand {
+    display: none;
+}
+
+select[multiple] {
+    padding: 2rem;
+    background-color: red;
+} */
+
+.select {
+    width: 100px;
+    border-radius: var(--paper-border-radius);
+    padding: 0.25em;
+}

@@ -1,0 +1,32 @@
+.TuiSelectBase-root {
+    padding: 1px 0px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+.TuiSelected-Value {
+    flex: 1;
+    position: relative;
+}
+
+.orain-selected-value {
+    position: absolute;
+    top: 22%;
+    left: 15px;
+}
+
+.TuiSelect-Input {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.orain-selected {
+    background-color: var(--default); 
+}
+
+.orain-icon-fontsize .TuiEndAdornment-holder {
+    font-size: 1.5rem;
+}

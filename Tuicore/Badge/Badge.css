@@ -1,0 +1,53 @@
+
+.TuiBadge-root {
+    display: inline-flex;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+
+.TuiBadge {
+    min-width: 20px;
+    height: 20px;
+    position: absolute;
+    border: none;
+    border-radius: 15px;
+    padding: 0px 6px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.75rem;
+    font-weight: normal;
+    color: rgba(255, 255, 243, 0.87);
+    z-index: 1;
+    animation: badgeAnime 3s linear infinite  2s;
+}
+
+.TuiPrimary-badge {
+    background-color: rgba(7, 7, 136, 0.835);
+}
+
+.TuiSecondary-badge {
+    background-color: rgb(224, 9, 9);
+}
+
+@keyframes badgeAnime {
+    0% {
+        transform: rotateZ(0deg)
+    }
+
+    50% {
+        transform: rotateZ(25deg);
+        z-index: 5;
+    }
+
+    75% {
+        transform: rotateZ(-25deg);
+        z-index: 5;
+    }
+
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
